@@ -1,0 +1,271 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+@font-face {
+  font-family: " Star_Jedi_Rounded ";
+  src: url('Star_Jedi_Rounded.TTF');
+
+}
+.apply {
+  cursor: pointer;
+  font-family: 'Hind', sans-serif;
+}
+.nav li {
+  list-style-type:none;
+}
+a{
+  text-decoration: none;
+}
+
+.nav{
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.nav img{
+  width: 180px;
+}
+
+.nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    float: left;
+}
+
+.nav a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px 30px;
+    display: inline-block;
+    line-height: 82px;
+}
+
+.nav a:hover{
+  color: #ffdf31;
+    text-shadow: 1px 1px 2px #ffdf31, 0 0 20px #ffdf31;
+}
+
+.left{
+   float: left;
+   margin-top: -15px;
+   margin-left: 30px;
+}
+
+.right{
+    float: right;
+    margin-top: -30px;
+}
+ html {
+  height: 100%;
+  background: radial-gradient( circle, #003e5e, #02223b );
+  overflow: hidden;
+  margin:0;
+  color:#6a6f8c;
+  background:#c8c8c8;
+  background: radial-gradient( circle, #003e5e, #02223b );
+}
+
+#feedback-page{
+	text-align:center;
+}
+.logo{
+    width: 150px;
+    margin: 20px;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+h1{
+    text-align: center;   
+    color:#ffdf31;
+    font-size: 50px;
+	  text-shadow: 2px 2px 4px #4E4E4C;
+    font-weight: 500;
+    font-family: Star_Jedi_Rounded ;
+    margin-top:-10px;
+    margin-bottom: 10px;
+    
+}
+#form-div{
+	background-color:rgba(0,0,0,0.3);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+	margin-left: -260px;
+   -moz-border-radius: 7px;
+   -webkit-border-radius: 7px;
+
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+	font-size: 20px;
+	border-radius: 2px;
+	line-height: 22px;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+    padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+
+.button {
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #01314E;
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  color: #01314E;
+  text-align: center;
+  font-size: 35px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+#name{
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#phonenumber{
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#phonenumber:focus{
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#university{
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#university:focus{
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#faculty{
+	color: white;
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#AcademicYear {
+	color: #9BA9A9;
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#other{
+    padding: 13px 13px 13px 10px;
+}

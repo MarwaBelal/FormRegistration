@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+        <title> Event Registration</title>
+    <link rel="stylesheet" href="css/style.css"> 
+  </head>
+  <body>
+      <div class="nav">
+          <ul class="left">
+            <li > <img class="logo" src="icons/logo.png" ></li>
+          </ul>
+          <div class="right" style="position:absolute; right: 10px">
+          </div>
+        </div>
+    <div id="form-main">    
+    <div id="form-div">  
+    <form class="form" id="form1" method="POST" action="DataForm.php">
+                <h1> Registration </h1>
+      <p class="name">
+        <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" required />
+      </p>
+
+      <p class="email">
+        <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" required/>
+      </p>
+
+      <p class="Phone Number">
+        <input name="Phone Number" type="tel" class=" feedback-input" id="phonenumber" placeholder="Phone" required/>
+      </p>
+          
+      <p class="university">
+        <input name="university" type="text" class=" feedback-input" id="university" placeholder="University" required/>
+      </p>
+
+         <p class="faculty">
+        <input name="faculty" type="text" class="feedback-input" id="faculty" placeholder="Faculty" required />
+      </p>
+          
+      <p>
+                <select name="AcademicYear"  class="feedback-input" id="AcademicYear" required>
+                  <option disabled selected class="feedback-input" >Academic Year </option> 
+                  <option value="Preparatory" class="feedback-input">Preparatory</option>
+                  <option value="First Year" class="feedback-input">First Year</option>
+                  <option value="Second Year" class="feedback-input">Second Year</option>
+                  <option value="Third Year" class="feedback-input">Third Year</option>
+                  <option value="Fourth Year" class="feedback-input">Fourth Year</option>
+                  <option value="Graduated" class="feedback-input">Graduated</option>
+                  <option value="Other" class="feedback-input">Other</option>
+                </select>
+            </p>
+
+      <button class="button">
+      <span> Register </span>
+      </button>
+
+          </form>
+       </div> 
+    </body>
+</html>
